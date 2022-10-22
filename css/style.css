@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    background-color: #404143;
+
+}
+
+.rocket {
+    width: 600px;
+}
+
+.up {
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    animation: blink 1.5s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .rocket {
+        width: 400px;
+    }
+}
